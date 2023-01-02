@@ -6,3 +6,7 @@
   width: 175px;
   color: #2f80ed;
 }
+
+.two-columns__brief:hover {
+  opacity: 0.7;
+}
