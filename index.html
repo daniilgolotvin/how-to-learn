@@ -18,17 +18,19 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
-        использовать в своей жизни?<a class="header__link" href="#"> Узнай →</a>
+        использовать в своей жизни?<a class="header__link" href="#">
+          Узнать →</a
+        >
       </p>
       <img
         class="header__main-illustration"
         src="images/header-image.png"
         alt="опять двойка"
       />
-      <div class="header__square-pic header__square-pic-rotatiion"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main>
-      <section class="description" aria-label="две колонки">
+      <section class="description" aria-label="Секция со статьей">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -115,43 +117,34 @@
               кажется, что вы владеете новой темой.
             </p>
           </li>
-          <li class="cards__item">
-            <div class="cards__image"></div>
-            <div class="cards__title"></div>
-            <div class="cards__description"></div>
-          </li>
         </ul>
       </section>
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <div class="video__iframe">
+        <ul class="video__iframes">
+          <li>
             <iframe
-              width="515"
-              height="316"
+              class="video__iframe"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
-              style="border: 0"
               title="Видео ТЭД"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </div>
-          <div class="video__iframe">
+          </li>
+          <li>
             <iframe
-              width="515"
-              height="316"
+              class="video__iframe"
               src="https://www.youtube.com/embed/arj7oStGLkU"
-              style="border: 0"
               title="Видео ТЭД"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             >
             </iframe>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
-      <section class="oakley">
+      <section class="oakley" aria-label="Секция со статьей">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
@@ -224,25 +217,29 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h2 class="khan__author">Салман Хан</h2>
-          <p class="khan__title">Весь мир — школа</p>
-          <p class="khan__quote">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов
             студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
             всем, кто занимается образованием — так учащиеся повсюду смогут
             получить навыки и знания, которые приносят успех в школе, карьере и
             жизни.
-          </p>
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
+            <img
+              class="khan__book-pic"
+              src="./images/khan-book.jpg"
+              alt=" Книга Хана"
+            />
             <a class="khan__buy-link" href="#">Купить книгу →</a>
           </div>
         </div>
       </section>
       <section class="kaufman">
-        <div class="kaufman__triangle kaufman__triangle-rotation"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">
           Принципы обучения
         </h2>
@@ -317,32 +314,40 @@
         <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
         </p>
-        <div class="resources__logo-zone">
-          <a href="#"
-            ><img
-              class="resources__link"
-              src="./images/logo/resources-arzamas.svg"
-              alt="Арзамас"
-          /></a>
-          <a href="#"
-            ><img
-              class="resources__link"
-              src="./images/logo/resources-n1.svg"
-              alt="н1"
-          /></a>
-          <a href="#"
-            ><img
-              class="resources__link"
-              src="./images/logo/resources-strelka.svg"
-              alt="стрелка"
-          /></a>
-          <a href="#"
-            ><img
-              class="resources__link"
-              src="./images/logo/resources-polka.svg"
-              alt="полка"
-          /></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="#"
+              ><img
+                class="resources__link"
+                src="./images/logo/resources-arzamas.svg"
+                alt="Арзамас"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="resources__link"
+                src="./images/logo/resources-n1.svg"
+                alt="н1"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="resources__link"
+                src="./images/logo/resources-strelka.svg"
+                alt="стрелка"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                class="resources__link"
+                src="./images/logo/resources-polka.svg"
+                alt="полка"
+            /></a>
+          </li>
+        </ul>
       </section>
     </main>
 
